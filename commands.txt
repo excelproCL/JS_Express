@@ -6,5 +6,7 @@ git branch -M main
 git remote add origin https://github.com/excelproCL/JS_stdin_stdout.git
 git push -u origin main
 
+git rm -r --cached node_modules
+
 npm init -y
 npm install cli-color
